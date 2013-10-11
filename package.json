@@ -1,0 +1,25 @@
+{
+  "name": "swallow",
+  "version": "0.0.2",
+  "description": "swallows and rethrows errors in two-args callbacks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/plasticpanda/swallow.git"
+  },
+  "keywords": [
+    "errors",
+    "callbacks"
+  ],
+  "author": "Simone Lusenti <simone@plasticpanda.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plasticpanda/swallow/issues"
+  },
+  "dependencies": {
+    "sliced": "0.0.5"
+  }
+}
