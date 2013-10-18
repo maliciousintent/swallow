@@ -1,6 +1,6 @@
 {
-  "name": "swallow",
-  "version": "0.0.2",
+  "name": "node-swallow",
+  "version": "0.0.3",
   "description": "swallows and rethrows errors in two-args callbacks",
   "main": "index.js",
   "scripts": {
