@@ -7,6 +7,10 @@ module.exports = swallower;
 function swallower(msg, callback) {
   'use strict';
   
+  if (typeof msg !== 'string' && typeof callback !== 'function') {
+    throw new Error('Wrong usage of node-swallow.');
+  }
+  
   return function (err) {
     if (err) {
       err.message_ = err.message;
