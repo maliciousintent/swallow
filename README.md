@@ -1,12 +1,17 @@
 node-swallow
 ============
 
-swallows and rethrows errors in two-args callbacks
+Swallows and rethrows errors in two-args callbacks.
 
 > «if you swallow on the 1st date you're guaranteed a 2nd.» @YouPorn
 
 
-### Usage
+### Install
+
+    npm -S install node-swallow
+
+
+### Use
 
 ```javascript
 var swallow = require('node-swallow');
@@ -26,6 +31,6 @@ or errors that should cause your process to die (e.g.: redis connection errors, 
 
 ### License
 
-See LICENSE
+See ```LICENSE```.
 
 
